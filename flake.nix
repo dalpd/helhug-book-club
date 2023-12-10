@@ -30,9 +30,9 @@
             nixfmt
             ormolu
           ];
-          # These can be set to false if not required.
-          withHoogle = true;
-          withHaddocks = true;
+          # These can be set to true if needed.
+          withHoogle = false;
+          withHaddocks = false;
         };
       });
 }

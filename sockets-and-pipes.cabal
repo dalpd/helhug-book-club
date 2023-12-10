@@ -13,7 +13,12 @@ library
   ghc-options: -Wall -O2 -fspecialise-aggressively
   build-depends:
       base
-    , lens
+    , directory
+    , filepath
+    , resourcet
+    , safe-exceptions
+    , text
+    , time
   default-language: Haskell2010
 
 executable sockets-and-pipes
