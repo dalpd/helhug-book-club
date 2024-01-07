@@ -6,6 +6,9 @@ library
   exposed-modules:
       SNP.Chapter1
       SNP.Chapter2
+      SNP.Chapter3
+      SNP.Chapter4
+      SNP.Chapter5
   other-modules:
       Paths_sockets_and_pipes
   hs-source-dirs:
@@ -13,8 +16,11 @@ library
   ghc-options: -Wall -O2 -fspecialise-aggressively
   build-depends:
       base
+    , bytestring
     , directory
     , filepath
+    , network
+    , network-simple
     , resourcet
     , safe-exceptions
     , text

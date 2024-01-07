@@ -3,13 +3,11 @@
 module SNP.Chapter2 where
 
 ------------------------------------------------------------------------------
--- lsp-execute-code-action
 
 import Control.Monad (unless)
 import Control.Monad.IO.Class (liftIO)
 import Control.Monad.Trans.Resource (runResourceT)
 import Data.Char (isDigit, toUpper)
-import Data.List (nub)
 import Data.Text (Text)
 import qualified Data.Text as Text
 import qualified Data.Text.IO as Text
