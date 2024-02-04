@@ -1,7 +1,8 @@
 {
   description = "Helsinki Haskell User Group book club flake";
 
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/haskell-updates";
+  #inputs.nixpkgs.url = "github:NixOS/nixpkgs/haskell-updates";
+  inputs.nixpkgs.url = "github:dalpd/nixpkgs/haskell-updates";
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
   outputs = { self, nixpkgs, flake-utils }:
